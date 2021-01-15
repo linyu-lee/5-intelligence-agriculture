@@ -20,6 +20,8 @@
 [Intro2](https://github.com/SWJTU-i2e-2020/5-intelligence-agriculture/blob/main/images/6.png)
 ## 三、详细设计
 
+
+[test 提取码: 8bri](https://pan.baidu.com/s/1H7AHG4ytIJ9ogcDavMNEzQ)
 ### 加工制作过程
 [制作过程](https://zaowu.fun/p/600049a236531447f6c5b4b5)
 ## 四、性能指标
