@@ -10,34 +10,41 @@
 朱语 |	520zy520
 
 ## 一、问题定义
-   
+### （1）需求介绍及分析
+&#8195;&#8195;CO2浓度对农作物生长具有非常大的影响。当塑料大棚内二氧化碳浓度过低或过高时，会影响塑料大棚作物产量。在塑料大棚中安装二氧化碳监测仪可以保证在二氧化碳监测仪浓度
+过高或过低的情况下及时报警，从而使用气肥或通风通气。保证蔬菜、食用菌、鲜花、中药等提早上市、高质高产。
+### （2）需求列表 
+| Want | Wish |
+| :--- | :--- |
+| 实时测量CO2浓度 | 显示值达到较高的精度及刷新率 |
+| 设置阈值，超出警报 | 实现远程接收警报 |
+| 外观实用耐磨损 | 实现美观 |
+| 尺寸合理 | 达到便携 | 
+| 便于生产维护 | 达到低成本，高效率 |
+| 具有较长的生命周期 |同时达到低功耗，高稳定性 |
+### （3）产品总体功能
+&#8195;&#8195;我们的大棚二氧化碳监测反馈装备的主要功能是，在大棚中检测出二氧化碳浓度，能够实时显示并远程显示，超标时在实地与远程端同时发出报警，从而管理人员发现问题并作出调整。
+### （4）指标、特点
+| 指标 | 特点 |
+| :--- | :---|
+| 精度 | 高精度性 |
+| 成本 | 低成本性 |
+| 操作 | 简易、远近可操作性 |
+| 成本 | 低成本、易维护性 |
+| 使用寿命 | 功耗低、生命周期长|
+| 尺寸 | 小巧易携 |
 ## 二、概念设计
-| 概念 |  概念草图  |  介绍  |
-|  ------------  |  -----------  |  ------------  |
-|  CO2浓度监视器  |  [Pic1](https://mmbiz.qpic.cn/mmbiz_png/vbmfkZBusBH26doD4LHss3pwC0KuCmU5nsdb1fMdUe6oXhOfWzsUpS8sXoPRI2dmwUzsfTiaiblZbFiaC1rnrgWHw/0?wx_fmt=png)  |  [Intro1](https://mmbiz.qpic.cn/mmbiz_png/vbmfkZBusBH26doD4LHss3pwC0KuCmU5ZMZ3HVAl1mXmn3eMPibb3lWlNFT7enlG4XyxfbNDwvcQQCouRdZKBPg/0?wx_fmt=png)  |
-|  可实现远程监测的检测系统  |  [Pic2](https://mmbiz.qpic.cn/mmbiz_png/vbmfkZBusBH26doD4LHss3pwC0KuCmU5u8KryG5K7yAwj0EibspmC08pZG5ib9Oqibh93SXzAjshHdZEDyxonoOlw/0?wx_fmt=png)  |[Intro2](https://mmbiz.qpic.cn/mmbiz_png/vbmfkZBusBH26doD4LHss3pwC0KuCmU5aia4Vnlc8qD6czA3S7sXRibCZnYHb9YVubA6nym3INiaHf8SxzcOBRqCg/0?wx_fmt=png)  |
+### 概念一：CO2浓度监视器
+[Pic1](https://github.com/SWJTU-i2e-2020/5-intelligence-agriculture/blob/main/images/3.png)
+[Intro1](https://github.com/SWJTU-i2e-2020/5-intelligence-agriculture/blob/main/images/4.png)
+### 概念二：可实现远程监测的检测系统
+[Pic2](https://github.com/SWJTU-i2e-2020/5-intelligence-agriculture/blob/main/images/5.png)
+[Intro2](https://github.com/SWJTU-i2e-2020/5-intelligence-agriculture/blob/main/images/6.png)
 ## 三、详细设计
-
 
 ### 加工制作过程
 [制作过程](https://zaowu.fun/p/600049a236531447f6c5b4b5)
 ## 四、性能指标
-### 1.	外观
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我们的产品的外包装是使用牢固轻便的亚克力板拼装粘黏而成的长方体，尺寸是15cm×12cm×8cm。在外包装表面开有必要的孔洞用于暴露Lora的天线，显示屏与蜂鸣器。内部部件均用胶水粘好，牢固无松动。
-### 2.	供电方式
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;供电方式采用在产品内置额定容量6000mA·h（5V/2.1A）的充电宝直接供电。
-### 3.	功耗
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;查阅资料，ESP32自身CPU工作状态功耗约为20mA-30mA，算上外围芯片，我们产品的正常工作时的功耗在100mA左右。
-### 4.	使用时间
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;充电宝一次充满电后保持我们的产品工作状态，可以维持6000mA·h ÷100mA = 60个小时。
-### 5.	环境影响
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;温度：一般种植期间大棚（管理得当）内的温度高可达36℃，低可达3℃。在这种温度条件下，我们的产品完全可以正常使用较长时间。</br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;湿度：一般大棚内空气相对湿度可以达到50%-60%，极限情况下可达到100%。我们的产品不完全密封，受湿度影响会较大，导线暴露出的部分与各部件暴露出的接口都会产生金属腐蚀，但仍能使用较长一段时间。
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;电磁干扰：我们产品受电磁干扰影响较大，无论是自身的正常运行，还是远程传输信号，都会受到影响。不过在大棚地产生电磁干扰的物质较少，实际影响会较少。
-### 6.	有毒物质
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;可更换的充电宝自身具有毒性，但对大棚环境不造成影响；产品各个组成部分均封在包装内，不排出有毒物质。
-### 7.	灵敏度
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在测试过程中，在较短时间内(<0.5s)反映出二氧化碳浓度变化，对于大棚内蔬菜来说这样的灵敏度完全足够。
 
 ## 五、代码
 // 节点代码如下：
@@ -195,23 +202,8 @@ void onSleep()
    软件:Arduino,硬件esp32, LoRa, ccs811, oled等。
 
 1.  Arduino中开发板管理器中下载esp32并在开发板中选择ESP32 Dev Module。 
-
-
-  ![1](https://github.com/SWJTU-i2e-2020/5-intelligence-agriculture/blob/main/images/6.1.png)
-  
-  ![2](https://github.com/SWJTU-i2e-2020/5-intelligence-agriculture/blob/main/images/6.2.png)
-    
-  ![3](https://github.com/SWJTU-i2e-2020/5-intelligence-agriculture/blob/main/images/6.3.png)
-  
   
 2. 在库管理器中安装：WIFI, SSD1306, Adafruit CCS811 Library, LoRaNow, PubSubClient等库。即代码中各种头文件。
-
-  
-    ![4](https://github.com/SWJTU-i2e-2020/5-intelligence-agriculture/blob/main/images/6.4.png)
-    
-    
-    ![5](https://github.com/SWJTU-i2e-2020/5-intelligence-agriculture/blob/main/images/6.5.png)
-  
   
 3. 将设备连入电脑。
 
