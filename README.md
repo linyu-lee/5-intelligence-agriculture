@@ -180,8 +180,23 @@ void onSleep()
    软件:Arduino,硬件esp32, LoRa, ccs811, oled等。
 
 1.  Arduino中开发板管理器中下载esp32并在开发板中选择ESP32 Dev Module。 
+
+
+  ![1](https://github.com/SWJTU-i2e-2020/5-intelligence-agriculture/blob/main/images/6.1.png)
+  
+  ![2](https://github.com/SWJTU-i2e-2020/5-intelligence-agriculture/blob/main/images/6.2.png)
+    
+  ![3](https://github.com/SWJTU-i2e-2020/5-intelligence-agriculture/blob/main/images/6.3.png)
+  
   
 2. 在库管理器中安装：WIFI, SSD1306, Adafruit CCS811 Library, LoRaNow, PubSubClient等库。即代码中各种头文件。
+
+  
+    ![4](https://github.com/SWJTU-i2e-2020/5-intelligence-agriculture/blob/main/images/6.4.png)
+    
+    
+    ![5](https://github.com/SWJTU-i2e-2020/5-intelligence-agriculture/blob/main/images/6.5.png)
+  
   
 3. 将设备连入电脑。
 
