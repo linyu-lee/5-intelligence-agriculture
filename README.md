@@ -20,6 +20,8 @@
 #### 介绍：https://github.com/Hongyi-Yangz/5-intelligence-agriculture/blob/main/4.jpg
 ## 三、详细设计
 
+
+### ![制作过程](https://zaowu.fun/p/600049a236531447f6c5b4b5)
 ## 四、性能指标
 
 ## 五、代码
