@@ -12,7 +12,12 @@
 ## 一、问题定义
    
 ## 二、概念设计
-   
+### 概念一：CO2浓度监视器
+#### 概念草图：https://github.com/Hongyi-Yangz/5-intelligence-agriculture/blob/main/1.jpg
+#### 介绍：https://github.com/Hongyi-Yangz/5-intelligence-agriculture/blob/main/2.jpg
+### 概念二：可实现远程监测的检测系统
+#### 概念草图：https://github.com/Hongyi-Yangz/5-intelligence-agriculture/blob/main/3.jpg
+#### 介绍：https://github.com/Hongyi-Yangz/5-intelligence-agriculture/blob/main/4.jpg
 ## 三、详细设计
 
 ## 四、性能指标
