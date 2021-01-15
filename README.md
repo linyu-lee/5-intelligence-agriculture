@@ -19,7 +19,6 @@
 ## 三、详细设计
 
 
-[test 提取码: 8bri](https://pan.baidu.com/disk/timeline#/timeline)
 ### 加工制作过程
 [制作过程](https://zaowu.fun/p/600049a236531447f6c5b4b5)
 ## 四、性能指标
