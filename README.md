@@ -13,15 +13,13 @@
    
 ## 二、概念设计
 ### 概念一：CO2浓度监视器
-#### 概念草图：https://github.com/Hongyi-Yangz/5-intelligence-agriculture/blob/main/1.jpg
-#### 介绍：https://github.com/Hongyi-Yangz/5-intelligence-agriculture/blob/main/2.jpg
+[Pic1](https://github.com/SWJTU-i2e-2020/5-intelligence-agriculture/blob/main/images/3.png)
+[Intro1](https://github.com/SWJTU-i2e-2020/5-intelligence-agriculture/blob/main/images/4.png)
 ### 概念二：可实现远程监测的检测系统
-#### 概念草图：https://github.com/Hongyi-Yangz/5-intelligence-agriculture/blob/main/3.jpg
-#### 介绍：https://github.com/Hongyi-Yangz/5-intelligence-agriculture/blob/main/4.jpg
+[Pic2](https://github.com/SWJTU-i2e-2020/5-intelligence-agriculture/blob/main/images/5.png)
+[Intro2](https://github.com/SWJTU-i2e-2020/5-intelligence-agriculture/blob/main/images/6.png)
 ## 三、详细设计
 
-
-### [制作过程](https://zaowu.fun/p/600049a236531447f6c5b4b5)
 ## 四、性能指标
 
 ## 五、代码
